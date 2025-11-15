@@ -1,0 +1,45 @@
+/* Simple student portfolio styles */
+:root{
+  --bg:#f7fbff;
+  --card:#ffffff;
+  --accent:#0b6cf6;
+  --muted:#556;
+  --radius:12px;
+  --max-width:1000px;
+  --container-padding:18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:#222;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.container{
+  max-width:var(--max-width);
+  margin:22px auto;
+  padding:var(--container-padding);
+}
+
+.site-header{
+  background:linear-gradient(90deg, rgba(11,108,246,0.08), rgba(11,108,246,0.02));
+  border-bottom:1px solid rgba(0,0,0,0.05);
+}
+
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.brand{
+  display:flex;
+  gap:12px;
+}
